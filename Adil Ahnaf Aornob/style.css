@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+position: fixed;
+z-index: 999;
+width: 100%;
+margin: 0px 0% 0px 0%;
+}
+.body{
+    background-image: url(327-3274460_web-development.jpg);
+    background-repeat: no-repeat;
+  background-position: center;
+    background-size: cover;
+    height: 625px;
+    margin: 0px 0% 0px 0%;
+}
+.body_text{
+    
+    margin:0px 0% 0px 0%;
+    padding: 200px 0% 0px 0%;
+   
+}
+.body_text .body_text_head{
+    font-size: 54px;
+    color: white;
+    font-weight: bold;
+    margin: 46px 20% 0px 20%;
+    font-family: mukta;
+}
+.body_text .body_text_paragraph{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: mukta;
+    margin: 0px 30%;
+}
+.nav_icon{
+    display: none;
+}
+
+
+.Front-end,.galary,.abot_what_we_do{
+    opacity: 0;
+}
+.animate__animated{
+ opacity: 1;
+}
+
+.body_text .get_start{
+    
+    margin: 18px 0% 0px 42%;
+    outline: none;
+
+    padding: 9px 2%;
+background-color: #f9a305;
+border-radius: 5px;
+font-size: 20px;
+font-weight: bold;
+color: white;
+font-family: mukta;
+}
+.body_text .get_start:hover{
+    background-color: transparent;
+    border: 1px solid #f9a305;
+    transition: .3s;
+}
+.logo_taxt{
+    color: white;
+    font-weight: bold;
+}
+.nav_links a{
+    color: white;
+    font-weight: bold;
+}
+.nav_links a:hover{
+    color: #f9a305;
+    transition: .4s;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_button{
+    
+    margin: 18px 42% 0px 0%;
+    padding: 9px 2%;
+background-color: transparent;
+border: 1px solid #f9a305;
+border-radius: 5px;
+font-size: 20px;
+font-weight: bold;
+color: white;
+font-family: mukta;
+}
+.contact_button:hover{
+    background-color: #f9a305;
+    transition: .4s;
+   
+}
+.about_company{
+    font-size: 40px;
+    color: #423b3b;
+    font-family: 'Source Serif 4', sans-serif;
+    
+    font-weight: bold !important;
+
+}
+.about_container{
+    margin: -83px 0% 26px 0%;
+}
+.what_we_do{
+    font-size: 19px;
+    font-weight: bold;
+    color: #f9a305;
+    font-family: 'Source Serif 4', sans-serif;
+
+}
+.service{
+    background-color: #121628;
+}
+.about_service{
+    font-size: 40px;
+    color: #fffdfd;
+    font-family: 'Source Serif 4', sans-serif;
+    
+    font-weight: bold !important;
+}
+.service_cart{
+    background-color: #191d2f;
+}
+.service_title{
+    color: #f9a305;
+}
+.about_des{
+    color: white;
+}
+.contact_map{
+    width: 60% !important;
+}
+.res_nav_links{
+    display: none;
+}
+@media only screen and (max-width: 1347px) {
+    .body_text .body_text_head{
+        font-size: 54px;
+        color: white;
+        font-weight: bold;
+        margin: 46px 7% 0px 12%;
+        font-family: mukta;
+    }
+    .body_text .body_text_paragraph{
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: mukta;
+        margin: 0px 24%;
+    }
+}
+@media only screen and (max-width: 1041px) {
+    .contact_map{
+        width: 43% !important;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .body_text .body_text_head{
+        font-size: 54px;
+        color: white;
+        font-weight: bold;
+        margin: 46px 3% 0px 9%;
+        font-family: mukta;
+    }
+    .body_text .body_text_paragraph{
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: mukta;
+        margin: 0px 9%;
+    }
+}
+@media only screen and (max-width: 880px) {
+    .contact_map{
+        display: none;
+    }
+    .contact{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 791px) {
+   
+   .logo{
+       margin: 0px 0% 0px -71%;
+   }
+   .nav_links{
+       display:none;
+   }
+   .nav_icon{
+       display: block;
+       margin: -32px 0% 0px 88%;
+   }
+   .nav_icon i{
+    font-size: 36px;
+    color: red;
+   
+    
+}
+.res_nav_links{
+        background-color: rgb(25 29 47);
+        width: 58%;
+        position: absolute;
+        color: white;
+        top: 81px;
+        right: -1%;
+        border-radius: 10px;
+}
+.res_nav_links li{
+    padding: 3px 13%;
+    font-size: 22px;
+}
+
+.about_container{
+    margin: -83px 0% 55px 0%;
+}
+
+  }
+  @media only screen and (max-width: 630px) {
+    .body_text .body_text_head{
+        font-size: 54px;
+        color: white;
+        font-weight: bold;
+        margin: 0px 3% 0px 9%;
+        font-family: mukta;
+    }
+    .body_text .body_text_paragraph{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: mukta;
+        margin: 0px 7%;
+    }
+}
+@media only screen and (max-width: 506px) {
+    .body_text .body_text_head{
+        font-size: 43px;
+        color: white;
+        font-weight: bold;
+        margin: 0px 3% 0px 9%;
+        font-family: mukta;
+    }
+    .body_text .body_text_paragraph{
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: mukta;
+        margin: 0px 0% 0px 7%;
+        padding: 0px 0% 0px 0%;
+    }
+}
+.body_text .get_start{
+    
+    margin: 28px 0% 0px 42%;
+    outline: none;
+
+    padding: 9px 2%;
+background-color: #f9a305;
+border-radius: 5px;
+font-size: 20px;
+font-weight: bold;
+color: white;
+font-family: mukta;
+}
